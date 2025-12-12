@@ -16,17 +16,19 @@ presentation video: https://binusianorg-my.sharepoint.com/personal/evan_hartono_
 ```
 waqu-water-quality-app/              #
 │  
-├── main.py                          # main app, to run app using fastapi
-├── custom_gesture_model.pkl         # trained model for hand gesture prediction
-├── requirements.txt                 # list of all necessaries library
-├── run.bat                          # batch of command line instruction to run the app in one go
-├── train/                           # 
+├── app/
+│   ├── main.py                      # main app, to run app using fastapi
+│   ├── custom_gesture_model.pkl     # trained model for hand gesture prediction
+│   ├── requirements.txt             # list of all necessaries library
+│   └── run.bat                      # batch of command line instruction to run the app in one go
+├── train/                            
 │   ├── extract_handlandmarks.py     # handlandmarks extraction coding
 │   ├── training_aolDL.ipynb         # compilation of preprocessing, training, evaluation coding
 │   └── asl_alphabet_dataset.csv     # extracted handlandmarks from image dataset
+├── report/   
+│   ├── presentation.pdf             # project report in slide presentation
+│   └── final_report.pdf             # the project full report
 ├── README.md                        # summary of the project and necessaries link
-├── presentation.pdf                 # project report in slide presentation
-├── final_report.pdf                 # the project full report
 └── .gitignore                       # ignore file/folder for git operation
 ```
 
