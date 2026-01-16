@@ -12,9 +12,6 @@ presentation video: https://binusianorg-my.sharepoint.com/personal/evan_hartono_
 
 ---
 
-## Warning!!
-if failed to install dependencies from requirements.txt, the necessaries library can be importted from Ondedrive link folder, where there is a zip file (venv_.zip). venv\aol_fastapi\Lib\site-packages\ can be copied to current venv.
-
 ## 📂 Project Structure
 ```
 waqu-water-quality-app/              #
